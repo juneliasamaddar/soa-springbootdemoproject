@@ -72,4 +72,10 @@ public class PatientServiceImpl implements PatientService{
 		}
 	}
 
+	@Override
+	public Long displayPatientCount() {
+		// TODO Auto-generated method stub
+		return repo.count();
+	}
+
 }
